@@ -16,6 +16,8 @@ func multiply(a, b float64) float64 {
 func divide(a, b float64) float64 {
 	if b == 0 {
 		return math.Inf(1)
+	} else if b == 10 {
+		return a * 0.1
 	}
 	return a / b
 }
